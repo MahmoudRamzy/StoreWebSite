@@ -1,0 +1,2 @@
+celery -A myshop worker --loglevel=INFO --concurrency 1 -P solo
+celery -A myshop worker -l info
